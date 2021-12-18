@@ -1,0 +1,95 @@
+//-----------------------------------------
+// animation_url
+//-----------------------------------------
+・url
+　https://docs.opensea.io/docs/metadata-standards
+
+・image
+　This is the URL to the image of the item.
+　Can be just about any type of image (including SVGs, which will be cached into PNGs by OpenSea),
+　and can be IPFS URLs or paths. We recommend using a 350 x 350 image.
+
+・animation_url
+　A URL to a multi-media attachment for the item.
+　The file extensions GLTF, GLB, WEBM, MP4, M4V, OGV, and OGG are supported, along with the audio-only extensions MP3, WAV, and OGA.
+
+　Animation_url also supports HTML pages,
+　allowing you to build rich experiences and interactive NFTs using JavaScript canvas, WebGL, and more.
+　Scripts and relative paths within the HTML page are now supported.
+　However, access to browser extensions is not supported.
+
+//-----------------------------------------
+// 各種フォーマット
+//-----------------------------------------
+３Dモデル
+・[00] GLTF(5KB)
+　ここからお借りしました
+　https://creazilla.com/ja/nodes/67197-inca-aryballos-from-central-chile-3d-model?tag_id=649
+
+・[01] GLB(16.7MB)
+　ここからお借りしました
+　https://sketchfab.com/3d-models/18th-century-oilan-45e522a09cf449cca25ef1c8000a5252
+
+動画ファイル
+・[02] WEBM(901KB)
+　ここからお借りしました
+　https://file-examples.com/index.php/sample-video-files/sample-webm-files-download/
+
+・[03] MP4(1.6MB)
+　ここからお借りしました
+　https://file-examples.com/index.php/sample-video-files/sample-mp4-files/
+
+・[04] M4V(17.5MB)
+　ここからお借りしました
+　https://filesamples.com/formats/m4v
+　音が出ます
+
+・[05] OGV(1.7MB)
+　ここからお借りしました
+　https://filesamples.com/formats/ogv
+
+　OpenSeaでは再生できませんでした（動画として認識されているものの再生時間が０秒）。
+
+　IPFSへアクセスした場合は正常に再生されるのでOpenSea側の問題かと（音が出ます）
+　https://bafybeigxesrikogeqzlisjviugt72lalgmgokmaby66f2xjkxh5fxqcwv4.ipfs.infura-ipfs.io/05_ogv.ogv
+
+・[06] OGG(4.9MB)
+　ここからお借りしました
+　https://file-examples.com/index.php/sample-audio-files/sample-ogg-download/
+　音が出ます
+
+音声ファイル
+・[07] MP3(764KB)
+　ここからお借りしました
+　https://file-examples.com/index.php/sample-audio-files/sample-mp3-download/
+　音が出ます
+
+・WAV(audio)(1.1MB)
+　ここからお借りしました
+　https://file-examples.com/index.php/sample-audio-files/sample-wav-download/
+　音が出ます
+
+・OGA(audio)(12.5MB)
+　ここからお借りしました
+　https://filesamples.com/formats/oga
+　音が出ます
+
+//------------------------
+// OpenSea
+//------------------------
+・Collection
+　https://testnets.opensea.io/collection/file-format-test-token
+
+・NFT
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/0
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/1
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/2
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/3
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/4
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/5
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/6
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/7
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/8
+　https://testnets.opensea.io/assets/0x17ec0065e83c78f82eb8d4a3f52291a3321e5005/9
+
+
